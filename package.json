@@ -1,0 +1,35 @@
+{
+  "name": "apparel",
+  "version": "0.0.2",
+  "description": "Dress templates with variables.",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Asfandyar Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "ejs": "^4.0.1",
+    "fast-xml-parser": "^5.3.7",
+    "handlebars": "^4.7.8",
+    "handlebars-helper-repeat": "^2.0.0",
+    "handlebars-helpers": "^0.10.0",
+    "js-yaml": "^4.1.1",
+    "json5": "^2.2.3",
+    "liquidjs": "^10.24.0",
+    "nunjucks": "^3.2.4",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asfandyarsheikh/apparel.git"
+  }
+}

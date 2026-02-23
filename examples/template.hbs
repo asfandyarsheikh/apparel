@@ -1,0 +1,21 @@
+name: {{name}}
+email: {{email}}
+role: {{role}}
+company: {{company}}
+experience: {{experience}} years
+
+Skills:
+{{#each skills}}
+- {{this}}
+{{/each}}
+
+---
+
+Hello {{name}},
+
+Thank you for your interest in joining {{company}} as a {{role}}. 
+With {{experience}} years of experience and your skills in {{#each skills}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}, 
+you would be a great fit for our team.
+
+Best regards,
+HR Team

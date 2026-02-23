@@ -1,0 +1,22 @@
+name: John Doe
+email: john.doe@example.com
+role: Software Engineer
+company: Tech Corp
+experience: 5 years
+
+Skills:
+- JavaScript
+- TypeScript
+- Node.js
+- React
+
+---
+
+Hello John Doe,
+
+Thank you for your interest in joining Tech Corp as a Software Engineer. 
+With 5 years of experience and your skills in JavaScript, TypeScript, Node.js, React, 
+you would be a great fit for our team.
+
+Best regards,
+HR Team

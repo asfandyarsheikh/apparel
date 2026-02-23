@@ -1,0 +1,15 @@
+Hello <%= name %>,
+
+Welcome to <%= company %>! We're excited to have you join our team as a <%= role %>.
+
+Your profile:
+- Email: <%= email %>
+- Experience: <%= experience %> years
+- Skills: <% skills.forEach((skill, index) => { %>
+  • <%= skill %><% if (index < skills.length - 1) { %>,<% } %>
+<% }); %>
+
+We look forward to working with you!
+
+Best regards,
+The <%= company %> Team

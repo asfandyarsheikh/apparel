@@ -1,0 +1,6 @@
+name = "John Doe"
+email = "john.doe@example.com"
+role = "Software Engineer"
+company = "Tech Corp"
+skills = ["JavaScript", "TypeScript", "Node.js", "React"]
+experience = 5

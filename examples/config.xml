@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <name>John Doe</name>
+  <email>john.doe@example.com</email>
+  <role>Software Engineer</role>
+  <company>Tech Corp</company>
+  <skills>
+    <skill>JavaScript</skill>
+    <skill>TypeScript</skill>
+    <skill>Node.js</skill>
+    <skill>React</skill>
+  </skills>
+  <experience>5</experience>
+</config>
